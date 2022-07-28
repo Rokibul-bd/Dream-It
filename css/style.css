@@ -10,22 +10,17 @@
     padding:0;
     box-sizing:border-box;
 }
-.custom{
+.custom-bg-color{
     background-color: var(--custom-color);
+}
+.custom-text-color{
+    color:var(--custom-color)
 }
 body{
     /* width:1440px;
     margin:0 auto; */
     font-family: 'Poppins', sans-serif;
 }
-/* .carousel-item{
-    height:70vh;
-}
-.carousel-item img{
-    opacity:0.9;
-    max-height: 100%;
-    object-fit:cover;
-} */
 .navbar-brand img{
     width:100px;
     height:50px;
@@ -36,7 +31,7 @@ body{
     width: 40px;
     height: 40px;
     border-radius:100%;
-    background: blue;
+    background: var(--custom-color);
     top: 50%;
 }
 .text-hover i{
