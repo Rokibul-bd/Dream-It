@@ -1,13 +1,17 @@
 /*Google Font cnd link css style sheet*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*End Google Font cdn link*/
+/* color diclaretion  */
+:root{
+    --custom-color: #289BDE;
+}
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-.custom-bg-color{
-    background-color: #F4FAFD;
+.custom{
+    background-color: var(--custom-color);
 }
 body{
     /* width:1440px;
@@ -34,4 +38,11 @@ body{
     border-radius:100%;
     background: blue;
     top: 50%;
+}
+.text-hover i{
+    transition:0.5s all ease;
+}
+.text-hover i:hover{
+    color:orange;
+    transform:rotate(360deg)
 }
