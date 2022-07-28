@@ -28,3 +28,10 @@ body{
     object-fit: cover;
     margin-left:-30px;
 }
+.carousel-control-prev, .carousel-control-next{
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    background: blue;
+    top: 50%;
+}
