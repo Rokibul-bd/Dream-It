@@ -33,10 +33,10 @@
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#courses">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#deal">Deals</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Success</a>
@@ -105,7 +105,8 @@
   <!-- header section End -->
   <!-- main section start  -->
   <main>
-    <section class="my-md-5 py-2">
+    <!-- start courses section  -->
+    <section id="courses" class="my-md-5 py-2">
       <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-center text-center">
@@ -210,6 +211,90 @@
           </div>
           <div class="col-12 d-flex d-lg-none justify-content-center mt-3">
             <button class="btn btn-primary">Veiw ALl</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- deal section start  -->
+    <section id="deal" class="py-5 my-5">
+      <div class="container custom-bg-color">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="d-flex align-items-center">
+              <img class="img-fluid" src="./images/working.png" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <div>
+              <h2 class="my-5 display-4 fw-bold">Explore The elearning Institute</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+              <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                to repeat predefined.</p>
+              <!-- course mumber number  -->
+              <div class="d-flex justify-content-between my-3">
+                <div>
+                  <h2 class="fw-bold">3.2K+</h2>
+                  <p>Online Course</p>
+                </div>
+                <div>
+                  <h2 class="fw-bold">3.2K+</h2>
+                  <p>Online Course</p>
+                </div>
+                <div>
+                  <h2 class="fw-bold">3.2K+</h2>
+                  <p>Online Course</p>
+                </div>
+              </div>
+              <!-- course mumber number  -->
+              <button class="btn btn-primary mb-5 mb-md-0">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- deal section end  -->
+    <!-- start Ready and modal section  -->
+    <section class="py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class=" d-md-flex bg-primary py-5 rounded text-light justify-content-around align-items-center">
+              <div class="m-4">
+                <h2 class="mb-4">Ready to join?</h2>
+                <p>It is a long established fact that a reader will be distracted by the
+                  <br> readable content of a page when looking at its layout.
+                </p>
+              </div>
+              <div class="m-4">
+                <!-- modal section start ... start modal  -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-primary" id="exampleModalToggleLabel">Sing Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <input class="form-control mt-2" type="text" placeholder="User Name" required>
+                          <input class="form-control mt-2" type="email" placeholder="Email" required>
+                          <input class="form-control mt-2" type="password" placeholder="Password" required>
+                          <div class="d-flex justify-content-between mt-3">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-primary" type="reset" value="Reset">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn btn-light" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>

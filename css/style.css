@@ -6,6 +6,9 @@
     padding:0;
     box-sizing:border-box;
 }
+.custom-bg-color{
+    background-color: #F4FAFD;
+}
 body{
     /* width:1440px;
     margin:0 auto; */
